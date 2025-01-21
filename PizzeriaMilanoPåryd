@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria och Restaurang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d33;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .menu-section {
+            margin-bottom: 30px;
+        }
+        footer {
+            text-align: center;
+            background-color: #d33;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Välkommen till vår Pizzeria och Restaurang</h1>
+</header>
+
+<nav>
+    <a href="#menu">Meny</a>
+    <a href="#about">Om oss</a>
+    <a href="#contact">Kontakt</a>
+</nav>
+
+<div class="container">
+    <section id="menu">
+        <h2>Meny</h2>
+        <div class="menu-section">
+            <h3>Pizza</h3>
+            <img src="/mnt/data/pizzameny1.jpg" alt="Pizzameny">
+        </div>
+        <div class="menu-section">
+            <h3>Kebab och Gyros</h3>
+            <img src="/mnt/data/pizzameny2.jpg" alt="Kebab och Gyros Meny">
+        </div>
+        <div class="menu-section">
+            <h3>Sallader och A'la Carte</h3>
+            <img src="/mnt/data/pizzameny3.jpg" alt="Sallad och A'la Carte Meny">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Om oss</h2>
+        <p>Vi erbjuder ett brett utbud av läckra pizzor, kebab, gyros, sallader och mycket mer. Kom och njut av en härlig måltid i vår restaurang eller beställ för avhämtning!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Adress: Din Gata 123, Din Stad</p>
+        <p>Telefon: 012-345 6789</p>
+        <p>E-post: info@dinpizzeria.se</p>
+    </section>
+</div>
+
+<footer>
+    &copy; 2025 Din Pizzeria och Restaurang. Alla rättigheter förbehållna.
+</footer>
+
+</body>
+</html>
